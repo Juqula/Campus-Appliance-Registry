@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Appliance Registry</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <header class="bg-gray-800 text-gray-200 py-4 shadow-sm">
+    <div class="container mx-auto flex items-center justify-between px-4 md:px-6">
+      <a href="#" class="flex items-center gap-2 font-bold">
+        <svg class="h-6 w-6 text-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 22v-5M9 8V2m6 6V2M18 8v5a4 4 0 01-4 4H10a4 4 0 01-4-4V8z" />
+        </svg>
+        <span>Campus Appliance Registry</span>
+      </a>
+      <a href="#" class="text-sm font-medium text-gray-300">Dashboard</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="bg-gray-200 py-12 md:py-16">
+      <div class="container mx-auto px-4 md:px-6">
+        <div class="grid md:grid-cols-2 gap-4 items-center">
+          <div>
+            <h1 class="text-3xl font-bold mb-4">Secure your campus appliances</h1>
+            <p class="text-gray-700">
+              Register your appliances with our easy-to-use platform and protect your belongings from theft.
+            </p>
+          </div>
+          <div class="hidden md:block">
+            <img src="./login-bg.png" alt="Campus appliances" width="500" height="400" class="rounded-lg" style="aspect-ratio: 500/400; object-fit: cover;" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-gray-200 py-12 md:py-16">
+      <div class="container mx-auto px-4 md:px-6">
+        <h2 class="text-2xl font-bold mb-8">Register Your Appliances</h2>
+        <div class="max-w-md mx-auto bg-gray-300 p-6 rounded-lg shadow-sm">
+          <div>
+            <h3 class="text-xl font-bold mb-2">Student Appliance Registration</h3>
+            <p class="text-gray-700 mb-4">Enter your student information and details about your appliances.</p>
+          </div>
+          <form class="space-y-4">
+            <div>
+              <label for="name" class="block text-sm font-medium text-gray-800">Name</label>
+              <input id="name" type="text" placeholder="Sibonelo" class="block w-full mt-1 p-2 border rounded-md focus:ring-gray-500 focus:border-gray-500" />
+            </div>
+            <div>
+              <label for="surname" class="block text-sm font-medium text-gray-800">Surname</label>
+              <input id="surname" type="text" placeholder=" Juqula" class="block w-full mt-1 p-2 border rounded-md focus:ring-gray-500 focus:border-gray-500" />
+            </div>
+            <div>
+              <label for="email" class="block text-sm font-medium text-gray-800">Email</label>
+              <input id="email" type="email" placeholder="student@mywsu.ac.za" class="block w-full mt-1 p-2 border rounded-md focus:ring-gray-500 focus:border-gray-500" />
+            </div>
+            <div>
+              <label for="password" class="block text-sm font-medium text-gray-800">Password</label>
+              <input id="password" type="password" class="block w-full mt-1 p-2 border rounded-md focus:ring-gray-500 focus:border-gray-500" />
+            </div>
+            <div>
+              <label for="appliance-name" class="block text-sm font-medium text-gray-800">Appliance Name</label>
+              <input id="appliance-name" type="text" placeholder="Refrigerator" class="block w-full mt-1 p-2 border rounded-md focus:ring-gray-500 focus:border-gray-500" />
+            </div>
+            <div>
+              <label for="appliance-model" class="block text-sm font-medium text-gray-800">Appliance Model</label>
+              <input id="appliance-model" type="text" placeholder="Model XYZ" class="block w-full mt-1 p-2 border rounded-md focus:ring-gray-500 focus:border-gray-500" />
+            </div>
+            <div>
+              <label for="appliance-serial" class="block text-sm font-medium text-gray-800">Appliance Serial</label>
+              <input id="appliance-serial" type="text" placeholder="ABC123456789" class="block w-full mt-1 p-2 border rounded-md focus:ring-gray-500 focus:border-gray-500" />
+            </div>
+            <button type="submit" class="w-full bg-gray-800 text-gray-200 p-2 rounded-md font-medium hover:bg-gray-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-500 focus-visible:ring-offset-2">
+              Register Appliance
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-gray-200 py-12 md:py-20">
+      <div class="container mx-auto px-4 md:px-6">
+        <h2 class="text-2xl font-bold mb-8">Benefits of Registration</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="bg-gray-300 p-6 rounded-lg shadow-sm">
+            <svg class="h-8 w-8 mb-4 text-gray-800" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 01-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 011-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 011.52 0C14.51 3.81 17 5 19 5a1 1 0 011 1z" />
+            </svg>
+            <h3 class="text-lg font-semibold mb-2">Theft Prevention</h3>
+            <p class="text-gray-700">
+              Registering your appliances helps campus security identify and recover stolen items.
+            </p>
+          </div>
+          <div class="bg-gray-300 p-6 rounded-lg shadow-sm">
+            <svg class="h-8 w-8 mb-4 text-gray-800" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 14.5A2.5 2.5 0 0011 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 11-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 002.5 2.5z" />
+            </svg>
+            <h3 class="text-lg font-semibold mb-2">Fire Safety</h3>
+            <p class="text-gray-700">
+              Ensure your appliances meet campus safety standards and reduce fire hazards.
+            </p>
+          </div>
+          <div class="bg-gray-300 p-6 rounded-lg shadow-sm">
+            <svg class="h-8 w-8 mb-4 text-gray-800" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <rect width="8" height="4" x="8" y="2" rx="1" ry="1" />
+              <path d="M16 4h2a2 2 0 012 2v14a2 2 0 01-2 2H6a2 2 0 01-2-2V6a2 2 0 012-2h2" />
+            </svg>
+            <h3 class="text-lg font-semibold mb-2">Easy Management</h3>
+            <p class="text-gray-700">
+              Manage all your registered appliances in one secure dashboard.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="bg-gray-800 text-gray-200 py-6 px-4 md:px-6 flex items-center justify-between">
+    <p class="text-sm">&copy; 2024 Campus Appliance Registry</p>
+    <nav class="flex items-center gap-4">
+      <a href="#" class="text-sm hover:underline">Privacy</a>
+      <a href="#" class="text-sm hover:underline">Terms</a>
+      <a href="#" class="text-sm hover:underline">Contact</a>
+    </nav>
+  </footer>
+
+</body>
+</html>
+

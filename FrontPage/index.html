@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Appliance Register</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="flex flex-col min-h-screen bg-gray-100">
+    <header class="bg-gray-800 text-gray-200 py-4 px-6 flex items-center justify-between">
+        <a class="flex items-center gap-4" href="HomePage.html" rel="ugc">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
+                <path d="M12 22v-5"></path>
+                <path d="M9 8V2"></path>
+                <path d="M15 8V2"></path>
+                <path d="M18 8v5a4 4 0 0 1-4 4h-4a4 4 0 0 1-4-4V8Z"></path>
+            </svg>
+            <span class="text-xl font-bold">Campus Appliance Registry</span>
+        </a>
+        <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-gray-700 hover:text-gray-200 h-10 w-10">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5">
+                <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+            <span class="sr-only">Account</span>
+        </button>
+        
+    </header>
+    <main class="flex-1 flex items-center justify-center">
+        <div class="w-full max-w-md p-6 bg-white rounded-lg shadow-md">
+            <h1 class="text-2xl font-bold mb-6 text-gray-900">Login</h1>
+            <form>
+                <div class="mb-4">
+                    <label class="text-sm font-medium text-gray-700" for="email">
+                        Email
+                    </label>
+                    <input class="flex h-10 w-full rounded-md border border-gray-300 bg-gray-50 px-3 py-2 text-sm placeholder:text-gray-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-500 focus-visible:ring-offset-2" id="email" placeholder="Enter your email" type="email"/>
+                </div>
+                <div class="mb-6">
+                    <label class="text-sm font-medium text-gray-700" for="password">
+                        Password
+                    </label>
+                    <input class="flex h-10 w-full rounded-md border border-gray-300 bg-gray-50 px-3 py-2 text-sm placeholder:text-gray-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-500 focus-visible:ring-offset-2" id="password" placeholder="Enter your password" type="password"/>
+                </div>
+                <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-500 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-gray-800 text-gray-200 hover:bg-gray-700 h-10 px-4 py-2 w-full" type="submit">
+                    Login
+                </button>
+            </form>
+        </div>
+    </main>
+    <footer class="bg-gray-800 text-gray-200 py-6 px-4 md:px-6 flex items-center justify-between">
+        <p class="text-sm">© 2024 Mr Rich</p>
+        <nav class="flex items-center gap-4">
+            <a class="text-sm hover:underline" href="#">
+                Privacy
+            </a>
+            <a class="text-sm hover:underline" href="#">
+                Terms
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
