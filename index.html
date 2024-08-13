@@ -18,33 +18,32 @@
             </svg>
             <span class="text-xl font-bold">Campus Appliance Registry</span>
         </a>
-        <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-gray-700 hover:text-gray-200 h-10 w-10">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5">
-                <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
-                <circle cx="12" cy="7" r="4"></circle>
-            </svg>
-            <span class="sr-only">Account</span>
-        </button>
-        
     </header>
     <main class="flex-1 flex items-center justify-center">
-        <div class="w-full max-w-md p-6 bg-white rounded-lg shadow-md">
-            <h1 class="text-2xl font-bold mb-6 text-gray-900">Login</h1>
+        <div class="w-full max-w-sm p-6 bg-white rounded-lg shadow-md"> <!-- Reduced width here -->
+            <!-- Full-width image at the top -->
+            <img src="./assets/wsu logo.jpg" alt="Login Banner" class="w-full mb-6 rounded-t-lg">
             <form>
                 <div class="mb-4">
-                    <label class="text-sm font-medium text-gray-700" for="email">
+                    <label class="text-sm font-medium text-gray-700" for="email"> <!-- Reduced font size here -->
                         Email
                     </label>
-                    <input class="flex h-10 w-full rounded-md border border-gray-300 bg-gray-50 px-3 py-2 text-sm placeholder:text-gray-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-500 focus-visible:ring-offset-2" id="email" placeholder="Enter your email" type="email"/>
+                    <input class="flex h-9 w-full rounded-md border border-gray-300 bg-gray-50 px-3 py-1.5 text-sm placeholder:text-gray-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-500 focus-visible:ring-offset-2" id="email" placeholder="Enter your email" type="email"/>
                 </div>
                 <div class="mb-6">
-                    <label class="text-sm font-medium text-gray-700" for="password">
+                    <label class="text-sm font-medium text-gray-700" for="password"> <!-- Reduced font size here -->
                         Password
                     </label>
-                    <input class="flex h-10 w-full rounded-md border border-gray-300 bg-gray-50 px-3 py-2 text-sm placeholder:text-gray-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-500 focus-visible:ring-offset-2" id="password" placeholder="Enter your password" type="password"/>
+                    <input class="flex h-9 w-full rounded-md border border-gray-300 bg-gray-50 px-3 py-1.5 text-sm placeholder:text-gray-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-500 focus-visible:ring-offset-2" id="password" placeholder="Enter your password" type="password"/>
                 </div>
-                <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-500 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-gray-800 text-gray-200 hover:bg-gray-700 h-10 px-4 py-2 w-full" type="submit">
-                    Login
+                <!-- Centered Forgot Password Link -->
+                <div class="mb-6 flex justify-center">
+                    <a href="forgot-password.html" class="text-xs text-gray-600 hover:text-gray-800"> <!-- Reduced font size here -->
+                        Forgot Password?
+                    </a>
+                </div>
+                <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-500 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-100 bg-gray-500 text-black-400 hover:bg-gray-700 h-9 px-3 py-1.5 w-full" type="submit"> <!-- Reduced button size here -->
+                    LOG IN
                 </button>
             </form>
         </div>
